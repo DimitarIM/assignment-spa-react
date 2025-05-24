@@ -1,0 +1,13 @@
+.about {
+    padding: 2rem 0;
+    width: 100%;
+    background-color: rgb(71, 69, 69);
+}
+
+.about_grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+}

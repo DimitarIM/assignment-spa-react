@@ -1,0 +1,18 @@
+.divider {
+    position:relative;
+    width: 100%;
+    height: 2px;
+    background-color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.fadeBottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(20,19,16,1) 0%, rgb(20, 19, 16) 10%, transparent 100%); 
+    z-index: 1;
+}
+

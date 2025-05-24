@@ -1,0 +1,9 @@
+.triangle_right {
+    position: absolute;
+    width: 250px;
+    top: 0;
+    right: 0;
+    aspect-ratio: 1;
+    clip-path: polygon(60% 0%,100% 40%,100% 0);
+    background-color: var(--white);
+}
