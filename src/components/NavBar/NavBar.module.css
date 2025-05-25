@@ -20,3 +20,24 @@
     align-items: start;
     cursor: pointer;
 }
+
+@media screen and (max-width:600px) {
+    .navbar_links {
+        gap: 1rem;
+    }
+
+    .navbar_links button{
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:350px) {
+    .navbar_links {
+        gap: 0.5rem;
+    }
+
+    .navbar_links button {
+        font-size: 10px;
+        padding: 6px;
+    }
+}

@@ -34,7 +34,7 @@
     display: flex;
     background: no-repeat center url("/img/lower-showcase.jpg");
     width: auto;
-    height: 60vh;
+    min-height: 60vh;
     align-items: center;
     justify-content: center;
     padding: 8rem;
@@ -64,7 +64,7 @@
     background-color: var(--brown);
     width: 120px;
     height: 120px;
-    border-radius: 60px;
+    border-radius: 50%;
     border: 1px solid var(--white);
     align-items: center;
     justify-content: center;
@@ -73,10 +73,38 @@
 .diffList li a {
     display: flex;
     color: var(--white);
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
+@media screen and (max-width:630px) {
+    .lower_content {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .introBox {
+        padding: 1rem;
+    }
+    .introBox h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:405px) {
+    .diffList {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .introBox h4 {
+        font-size: 12px;
+    }
+}

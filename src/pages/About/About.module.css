@@ -2,12 +2,30 @@
     padding: 2rem 0;
     width: 100%;
     background-color: rgb(71, 69, 69);
+    min-height: 100vh;
 }
 
 .about_grid{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 1.5rem;
     padding: 1rem;
     width: 100%;
+}
+
+.about_grid img {
+    flex: 2;
+    width: 100%;
+}
+
+@media screen and (max-width:650px) {
+    .about_grid h1 {
+        font-size: 25px;
+    }
+    .about_grid h3 {
+        font-size: 15px;
+    }
+    .about_grid {
+        flex-direction: column;
+    }
 }
